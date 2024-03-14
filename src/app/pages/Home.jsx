@@ -114,7 +114,7 @@ const Home = () => {
                             >
                                 <input
                                     type="search"
-                                    className="text-white outline-none rounded-none bg-[#132226] mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
+                                    className="text-black outline-none rounded-none bg-[#525B56] mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
                                     placeholder="Digite um CEP..."
                                     onChange={(e) => setCep(e.target.value)}
                                 />
