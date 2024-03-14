@@ -99,7 +99,7 @@ const Home = () => {
             </div>
 
             {modalCEP ? (
-                <div className="fixed top-0 left-0 right-0 bottom-0 bg-[rgb(0,0,0,0.3)] text-center">
+                <div className="fixed top-0 left-0 right-0 bottom-0 bg-[rgb(0,0,0,0.7)] text-center">
                     <div
                         id="container-modal"
                         className="min-h-[200px] min-w-[400px] bg-[#a4978e] m-4 rounded-xl inline-block relative"
