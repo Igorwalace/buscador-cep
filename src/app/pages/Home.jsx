@@ -45,7 +45,7 @@ const Home = () => {
         <main className="flex justify-center items-center text-white font-mono font-extrabold ">
             <div
                 id="container"
-                className="bg-[#525b56] min-h-[400px] min-w-[400px] rounded-xl flex items-center justify-around m-4 p-3 flex-col"
+                className="bg-[#BE9063] min-h-[400px] min-w-[400px] rounded-xl flex items-center justify-around m-4 p-3 flex-col"
             >
                 <h1
                     id="h1-title"
@@ -102,7 +102,7 @@ const Home = () => {
                 <div className="fixed top-0 left-0 right-0 bottom-0 bg-[rgb(0,0,0,0.7)] text-center">
                     <div
                         id="container-modal"
-                        className="min-h-[200px] min-w-[400px] bg-[#a4978e] m-4 rounded-xl inline-block relative"
+                        className="min-h-[200px] min-w-[400px] bg-[#BE9063] m-4 rounded-xl inline-block relative"
                     >
                         <form
                             onSubmit={handleSendForm}
