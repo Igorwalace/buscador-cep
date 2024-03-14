@@ -47,7 +47,10 @@ const Home = () => {
                 id="container"
                 className="bg-[#525b56] min-h-[400px] min-w-[400px] rounded-xl flex items-center justify-around m-4 p-3 flex-col"
             >
-                <h1 id='h1-title' className="text-3xl font-extrabold font-mono underline">
+                <h1
+                    id="h1-title"
+                    className="text-3xl font-extrabold font-mono underline"
+                >
                     Buscador de CEP
                 </h1>
                 <button
@@ -62,7 +65,7 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id='cep' className="text-2xl mb-3 underline">
+                        <h2 id="cep" className="text-2xl mb-3 underline">
                             CEP: {info.cep} {info.code}
                         </h2>
                         <h3>
@@ -76,10 +79,10 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id='cep' className="text-2xl mb-3 underline">
-                            CEP: 00000-000
+                        <h2 id="cep" className="text-2xl mb-3 underline">
+                        Nenhum CEP digitado
                         </h2>
-                        <h3>Nenhum CEP digitado</h3>
+                        <h3>ㅤ</h3>
                         <h3>ㅤ</h3>
                         <h3>ㅤ </h3>
                     </div>
@@ -97,16 +100,22 @@ const Home = () => {
 
             {modalCEP ? (
                 <div className="fixed top-0 left-0 right-0 bottom-0 bg-[rgb(0,0,0,0.3)] text-center">
-                    <div id='container-modal' className="min-h-[200px] min-w-[400px] bg-[#a4978e] m-4 rounded-xl inline-block relative">
+                    <div
+                        id="container-modal"
+                        className="min-h-[200px] min-w-[400px] bg-[#a4978e] m-4 rounded-xl inline-block relative"
+                    >
                         <form
                             onSubmit={handleSendForm}
                             className="flex items-center flex-col gap-[20px] justify-center absolute top-0 left-0 right-0 bottom-0"
                         >
-                            <div id='div' className="bg-[#132226] p-2 m-2 rounded-md flex justify-center items-center">
+                            <div
+                                id="div"
+                                className="bg-[#132226] p-2 m-2 rounded-md flex justify-center items-center"
+                            >
                                 <input
                                     type="search"
                                     className="text-white outline-none rounded-none bg-transparent mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
-                                    placeholder='Digite um CEP...'
+                                    placeholder="Digite um CEP..."
                                     onChange={(e) => setCep(e.target.value)}
                                 />
                                 <button type="submit" className="">
