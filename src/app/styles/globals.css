@@ -11,6 +11,7 @@ body {
 
 @media (max-width : 640px){
     #container, #container-modal{
+        max-width: 80%;
         min-width: 80%;
     }
     #h1-title{
