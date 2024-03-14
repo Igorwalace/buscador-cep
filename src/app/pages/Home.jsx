@@ -79,7 +79,7 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id="cep" className="text-2xl mb-3 underline">
+                        <h2 id="cep" className="text-2xl mb-3">
                         Nenhum CEP digitado
                         </h2>
                         <h3>ㅤ</h3>
