@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+body {
+    background-color: #132226; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width : 640px){
+    #container, #container-modal{
+        min-width: 80%;
+    }
+    #h1-title{
+        font-size: 27px;
+    }
+    #cep{
+        font-size: 22px;
+    }
+    #div{
+        width: auto;
+    }
+}
