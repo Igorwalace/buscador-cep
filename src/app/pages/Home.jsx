@@ -65,7 +65,7 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id="cep" className="text-2xl mb-3 underline text-[#132226]">
+                        <h2 id="cep" className="text-2xl mb-3 text-[#132226]">
                             CEP: {info.cep} {info.code}
                         </h2>
                         <h3>
