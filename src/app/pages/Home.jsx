@@ -110,11 +110,11 @@ const Home = () => {
                         >
                             <div
                                 id="div"
-                                className="bg-[#132226] p-2 m-2 rounded-md flex justify-center items-center"
+                                className="bg-[#525B56] p-2 m-2 rounded-md flex justify-center items-center"
                             >
                                 <input
                                     type="search"
-                                    className="text-black outline-none rounded-none bg-[#525B56] mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
+                                    className="text-black outline-none rounded-none bg-transparent mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
                                     placeholder="Digite um CEP..."
                                     onChange={(e) => setCep(e.target.value)}
                                 />
