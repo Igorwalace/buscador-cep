@@ -65,7 +65,7 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id="cep" className="text-2xl mb-3 underline">
+                        <h2 id="cep" className="text-2xl mb-3 underline bg-[#132226]">
                             CEP: {info.cep} {info.code}
                         </h2>
                         <h3>
@@ -79,7 +79,7 @@ const Home = () => {
                         id="info"
                         className="text-center tracking-tight text-xl"
                     >
-                        <h2 id="cep" className="text-2xl mb-3">
+                        <h2 id="cep" className="text-2xl mb-3 bg-[#132226]">
                         Nenhum CEP digitado
                         </h2>
                         <h3>ㅤ</h3>
@@ -114,7 +114,7 @@ const Home = () => {
                             >
                                 <input
                                     type="search"
-                                    className="text-white outline-none rounded-none bg-transparent mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
+                                    className="text-white outline-none rounded-none bg-[#132226] mr-[5px] placeholder:text-[#ccc] placeholder:text-[14px]"
                                     placeholder="Digite um CEP..."
                                     onChange={(e) => setCep(e.target.value)}
                                 />
