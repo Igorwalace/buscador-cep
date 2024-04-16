@@ -42,7 +42,7 @@ const Home = () => {
     };
 
     return (
-        <main className="flex justify-center items-center text-white font-mono font-extrabold ">
+        <main className="flex h-screen pb-10 justify-center items-center text-white font-mono font-extrabold ">
             <div
                 id="container"
                 className="bg-[#BE9063] min-h-[400px] min-w-[400px] rounded-xl flex items-center justify-around m-4 p-3 flex-col"
